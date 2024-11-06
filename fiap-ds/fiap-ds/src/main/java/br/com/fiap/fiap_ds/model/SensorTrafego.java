@@ -22,8 +22,6 @@ public class SensorTrafego {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-//	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_SENSOR_TRAFEGO")
-//	@SequenceGenerator(name = "SEQ_SENSOR_TRAFEGO", sequenceName = "SEQ_SENSOR_TRAFEGO", allocationSize = 1)
 	@Column(name = "id_sensor_trafego")
 	private Long idSensorTrafego;
 

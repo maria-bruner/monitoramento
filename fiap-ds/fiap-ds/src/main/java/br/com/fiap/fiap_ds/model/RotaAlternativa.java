@@ -23,8 +23,6 @@ public class RotaAlternativa {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-//	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_ROTA")
-//	@SequenceGenerator(name = "SEQ_ROTA", sequenceName = "SEQ_ROTA", allocationSize = 1)
 	@Column(name = "id_rota")
 	private Long idRota;
 

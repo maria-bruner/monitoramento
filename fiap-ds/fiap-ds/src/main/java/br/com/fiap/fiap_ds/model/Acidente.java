@@ -22,8 +22,6 @@ public class Acidente {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-//	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_ACIDENTE")
-//	@SequenceGenerator(name = "SEQ_ACIDENTE", sequenceName = "SEQ_ACIDENTE", allocationSize = 1)
 	@Column(name = "id_acidente")
 	private Long idAcidente;
 
