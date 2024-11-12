@@ -5,8 +5,9 @@
 * Java 17, Hibernate, JPA, Spring Boot e MYSQL.
 
 ### Rodar local:
-
-- Para rodar ele localmente basta dar build na imagem do docker: docker-compose up --build
-
-
-
+```bash
+# Clone este repositório.
+$ git clone https://github.com/maria-bruner/monitoramento.git
+# Rodar o docker.
+$ docker-compose up --build
+```
